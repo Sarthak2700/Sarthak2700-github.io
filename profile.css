@@ -9,11 +9,12 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 130px;
   font-family: "cursive", sans-serif;
   transition: all 0.3s;
   color: #2c405e;
-  font-size: 35px;
+  font-size: 25px;
+ 
 }
 
 body.light {
@@ -288,7 +289,204 @@ nav ul li a:hover::after {
   padding: 5px;
   display: flex;
   flex-wrap: wrap;
-  align-self: center;
+  align-self: center;<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarthak Nahar - Portfolio</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://use.fontawesome.com/a71e5ce1d6.js"></script>
+</head>
+
+<body>
+    <nav>
+        <p>Sarthak Nahar</p>
+
+        <button class="burger" id="burger">
+            &#9776
+        </button>
+
+        <ul>
+            <li><a id="home-anchor" href="#">Home</a></li>
+            <li><a id="edu-anchor" href="#education">Education</a></li>
+            <li><a id="exp-anchor" href="#experience">VAC</a></li>
+            <li><a id="proj-anchor" href="#projects">Future</a></li>
+        </ul>
+    </nav>
+
+    <div class="toggle-bar">
+        <button class="mode" onClick="toggleTheme()"><i id="icon" class="fa fa-moon-o" aria-hidden="true"></i></button>
+    </div>
+
+    <div class="profile">
+        <img src="https://lh3.googleusercontent.com/QjXbvW_z9curqdtFmCjs6dEr6VZL8TWyGY8eHolg_QtgBVA2Fgp7XMmmyLlGKJaNYiHm5pTPvCoKN2cOlh1oFHIee8FS1M0FFaRPlpDPTtPmlKJkJrvam-UJE5fSskwNJ-zSYEVPvQ=w600-h315-p-k" /> </a>
+        <div class="bio-text">
+            <h2>About Me</h2><span></span>
+      
+            <p>Aspiring Engineer👨‍💻 | Developer Community builder🥑</p>
+               web app developer | coding enthusiast💻 | sneaker head 👟<p><p>Hey, my name is Sarthak Nahar and i am a student currently pursuing Btech in Computer Science with specialisation in Artificial intelligence and Machine learning from SRM institute of science and technology. i am 19 years old and i am from Indore, Madhya Pradesh. computers have always been a field of interest for me and i wish to explore more and more and aim to get a deeper understanding of the subject.I have always been inclined to sports and have excelled in most of the sports i have played.
+i have a knack for stock trading and have been trading since 2 years now, Other than machine learning and artificial intelligence if i were to pick a field it would definitely be of a futures and options trader.  </p>
+
+            <div class="social-media">
+                <i class="fa fa-twitter" aria-hidden="true"><a href="https://twitter.com/sarthaknahar1" target="_blank"
+                        rel="noopener">Twitter</a></i>
+                <i class="fa fa-linkedin" aria-hidden="true"><a href="https://www.linkedin.com/in/sarthak-nahar-sn112702/"
+                        target="_blank" rel="noopener">LinkedIn</a></i>
+                <i class="fa fa-github" aria-hidden="true"><a href="https://github.com/sarthak2700" target="_blank"
+                        rel="noopener">GitHub</a></i>
+                <i class="fa fa-facebook-official" aria-hidden="true"><a href="https://www.facebook.com/sarthaknahar"
+                        target="_blank" rel="noopener">Facebook</a></i>
+                <i class="fa fa-download" aria-hidden="true"><a
+                        href="sarthak2700.github.io" target="_blank"
+                        rel="noopener">Résumé</a></i>
+                <i class="fa fa-envelope" aria-hidden="true"><a href="mailto:sarthaknahar@icloud.com" target="_blank"
+                        rel="noopener">Email Me</a></i>
+              <i class="fa fa-codepen" aria-hidden="true"><a
+                        href="https://codepen.io/sarthak2700" target="_blank"
+                        rel="noopener">codepen</a></i> 
+              
+        <i class="fa fa-HackerRank" aria-hidden="true"><a
+                        href="https://www.hackerrank.com" target="_blank"
+                        rel="noopener">HackerRank</a></i>
+              <i class="fa fa-instagram" aria-hidden="true"><a
+                        href="https://www.instagram.com/sarthak27__" target="_blank"
+                        rel="noopener">Instagram</a></i>
+            </div>
+        </div>
+    </div>
+
+   
+
+   
+
+   
+
+    <div class="education" id="education">
+        <h2>Education 🏫 </h2><span></span>
+        <div class="edu">
+            <span class="course"><i class="fa fa-book" aria-hidden="true"></i>
+                Btech Computer Science with specialisation in AI & ML</span>
+            <span class="school"><i class="fa fa-graduation-cap" aria-hidden="true"></i>
+              <a href="https://www.google.com/url?sa=t&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi05_LFoar6AhWURmwGHeJ8BoYQFnoECAwQAQ&url=https%3A%2F%2Fwww.srmist.edu.in%2F&usg=AOvVaw1yb33AsM53cuVazPkU0Wqe">2021-2025 SRM Institute of Science and Technology,Chennai</a></span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                Aug 2021 - June 2025</span>
+            <p class="description">
+                I joined Srm university in 2021 and i am currently in my 2nd year of my btech degree. I will be finishing my 8 semesters by the year 2025. i am aiming to utilize my time here to become a successful engineer 
+          </p>
+          <img src=https://srmihm.info/wp-content/uploads/2021/06/SRM-Logo3.png
+               s</p>
+          </p>
+        </div>
+
+        <div class="edu">
+            <span class="course"><i class="fa fa-book" aria-hidden="true"></i>
+                Central Board of Secondary Education (C.B.S.E)</span>
+            <span class="school"><i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                Delhi Public School,Indore</span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                 Mar 2011 - Jun 2021</span>
+            <p class="description"> DPS INDORE
+              <img src=https://dpsrau.org/wp-content/uploads/2019/01/dpsind1.jpg
+        </div>
+    </div>
+
+    <div class="experience" id="experience">
+        <h2>VAC</h2><span></span>
+
+        <div class="exp">
+            <span class="role"><i class="fa fa-laptop" aria-hidden="true"></i>
+                DAY 1</span>
+            <span class="company"><i class="fa fa-building-o" aria-hidden="true"></i>
+                VAC workshop</span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                Sep 19</span>
+            <span class="date">
+                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                
+            </span>
+            <p class="description"> Unfortunately missed the first day of the workshop 😔<br>
+        </div>
+        <div class="exp">
+            <span class="role"><i class="fa fa-laptop" aria-hidden="true"></i>
+                Day 2 </span>
+            <span class="company"><i class="fa fa-building-o" aria-hidden="true"></i>
+                VAC web development</span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                Sep 20</span>
+            <span class="date">
+                <i class="fa fa-stack-overflow" aria-hidden="true"></i> 
+            </span>
+            <p class="description">The day 2 of the workshop was a fun interactive session where we learned to work with codepen and got to know the way around Github such as forking and contributing to repositories. <br>
+        </div>
+
+        <div class="exp">
+            <span class="role"><i class="fa fa-laptop" aria-hidden="true"></i>
+                Day 3</span>
+            <span class="company"><i class="fa fa-building-o" aria-hidden="true"></i>
+                VAC web development</span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                Sep 21</span>
+            <span class="date">
+                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                
+            </span>
+            <p class="description">Day 3 had some pretty interesting stuff like the ZOHO analytics, kaggle and to use google scholar to find notable professors around the world to either contribute to their repositories or get a chance to study under their guidance.<br>
+        </div>
+
+        <div class="exp">
+            <span class="role"><i class="fa fa-laptop" aria-hidden="true"></i>
+                Day 4</span>
+            <span class="company"><i class="fa fa-building-o" aria-hidden="true"></i>
+                VAC workshop</span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                Sep 22</span>
+            <span class="date">
+                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+               
+            </span>
+            <p class="description"> The focus on the 4th day was algorithms and we started working on our personal portfolios, there were insights about the apple's program for developers in which we are supposed to teach back.  <br>
+                </p>
+        </div>
+
+        <div class="exp">
+            <span class="role"><i class="fa fa-laptop" aria-hidden="true"></i>
+              _______ PRE-WORKSHOP______</span>
+          
+                
+            </span>
+            <p class="description">Before this workshop i had very little clue about sites like codepen and didnt know much in the field of website development and the importance of algorithms, and the magic of github and its features.</p>
+        </div>
+    </div>
+<div class="exp">
+            <span class="role"><i class="fa fa-laptop" aria-hidden="true"></i>
+              _______ POST-WORKSHOP______</span>
+          
+                
+            </span>
+            <p class="description">After the completion of the fourth day i had learned how to create a website using HTML, CSS and JavaScript, it was a great learning experience for me personally to attend this value added course that enabled me to gain soo much in the feild of web development and many other topics that were relevant to the discussion.</p>
+        </div>
+    </div>
+
+    <div class="projects" id="projects">
+        <h2>______Future plans______</h2><span></span>
+        <div class="project-section">
+            <div class="content">
+                <div class="seventh background">
+                </div>
+                <div class="footer">
+                    
+                    <p>i am planning to go for an MBA from a renowned university abroad. I want to become an entrepreneur and manage my own business.After finishing my degree at SRM i would like to gain some Work Ex and simultaneously study for my GRE-GMAT exams. with the help of AI and ML integrated with business models i wish to do some interesting work in the same.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <span class="footer_desc">Done with &#10084; by <a class="git_link" href="https://github.com/sarthak2700"
+                target="_blank" rel="noopener">Sarthak Nahar</a></span>
+    </footer>
   justify-content: space-between;
 }
 .projects .project-section .content {
