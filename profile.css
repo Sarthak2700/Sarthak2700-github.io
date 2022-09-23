@@ -1,7 +1,7 @@
 @import "https://fonts.googleapis.com/css?family=Poppins";
 * {
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Tahoma", sans-serif;
 }
 
 html {
@@ -10,9 +10,10 @@ html {
 
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "cursive", sans-serif;
   transition: all 0.3s;
   color: #2c405e;
+  font-size: 35px;
 }
 
 body.light {
@@ -48,7 +49,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
+  padding: 30px;
   overflow: hidden;
 }
 
@@ -122,24 +123,24 @@ nav ul li a:hover::after {
 }
 
 .profile {
-  padding: 20px;
-  width: 100%;
+  padding: 10px;
+  width: 80%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
+  align-items:center;
+  justify-content:space-between;
 }
 
 .profile > img {
-  width: 100%;
-  height: 50%;
+  width: 350px;
+  height: 300px;
 
   border: 4px blue border;
 }
 .profile .bio-text {
   width: 80%;
-  height: 100%;
+  height: 60%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -246,7 +247,7 @@ nav ul li a:hover::after {
   padding: 5px;
 }
 .education .edu .course {
-  font-weight: bold;
+  font-weight: bold italic;
 }
 .education .edu .date {
   font-style: italic;
@@ -302,15 +303,14 @@ nav ul li a:hover::after {
 }
 
 .projects .project-section .content .top {
-  height: 207px;
-  width: 100%;
+  
   padding: 10px;
-  background: url("../assets/img/myspace.png");
+  
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   cursor: pointer;
-  border-radius: 5px 5px 0 0;
+  font-size:30px;
 }
 
 .projects .project-section .content .second {
@@ -406,21 +406,20 @@ nav ul li a:hover::after {
 }
 
 .projects .project-section .content .footer > p {
-  font-size: 12px;
+  font-size: 20px;
 }
 
 .projects .project-section .content .footer > a {
   align-self: flex-end;
   cursor: pointer;
   text-decoration: none;
-  text-align: center;
+  text-align: left;
   color: white;
-  font-size: 12px;
+  font-size: 20px;
   width: 40%;
   padding: 10px;
-  box-sizing: border-box;
-  border-radius: 5px;
-  background-color: #2c405e;
+ 
+  background-color: #0000FF;
   text-decoration: none;
 }
 
@@ -429,7 +428,7 @@ nav ul li a:hover::after {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  align-items: center;
+  align-items: left;
   justify-content: space-between;
 }
 
@@ -562,7 +561,7 @@ $white: #ffffff;
 
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-$theme-font: "Lato", sans-serif;
+$theme-font: "cursive", sans-serif;
 /* VARIABLES - END */
 /* COMMONS - START */
 .flex-center {
@@ -586,10 +585,10 @@ $theme-font: "Lato", sans-serif;
     position: fixed;
     top: 0;
     left: 0;
-    height: 35px;
+    height: 45px;
     width: 100%;
     padding: 5px;
-    font: 20px $theme-font;
+    font-size: 60px $theme-font;
     text-align: center;
     z-index: 10;
     background-color: white;
